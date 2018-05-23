@@ -7,3 +7,12 @@ C:\Users\Rifter\source\repos\CRUD_App\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.A
 C:\Users\Rifter\source\repos\CRUD_App\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.AssemblyInfo.cs
 C:\Users\Rifter\source\repos\CRUD_App\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.dll
 C:\Users\Rifter\source\repos\CRUD_App\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.pdb
+C:\Users\Вячеслав\source\repos\CRUD_App\CRUD_TextEditor\CRUD.BL\bin\Debug\netstandard2.0\CRUD.BL.deps.json
+C:\Users\Вячеслав\source\repos\CRUD_App\CRUD_TextEditor\CRUD.BL\bin\Debug\netstandard2.0\CRUD.BL.dll
+C:\Users\Вячеслав\source\repos\CRUD_App\CRUD_TextEditor\CRUD.BL\bin\Debug\netstandard2.0\CRUD.BL.pdb
+C:\Users\Вячеслав\source\repos\CRUD_App\CRUD_TextEditor\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.csproj.CoreCompileInputs.cache
+C:\Users\Вячеслав\source\repos\CRUD_App\CRUD_TextEditor\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.AssemblyInfoInputs.cache
+C:\Users\Вячеслав\source\repos\CRUD_App\CRUD_TextEditor\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.AssemblyInfo.cs
+C:\Users\Вячеслав\source\repos\CRUD_App\CRUD_TextEditor\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.dll
+C:\Users\Вячеслав\source\repos\CRUD_App\CRUD_TextEditor\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.pdb
+C:\Users\Вячеслав\source\repos\CRUD_App\CRUD_TextEditor\CRUD.BL\obj\Debug\netstandard2.0\CRUD.BL.csprojAssemblyReference.cache

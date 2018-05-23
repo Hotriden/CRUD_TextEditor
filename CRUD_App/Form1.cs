@@ -18,6 +18,7 @@ namespace CRUD_App
         event EventHandler FileOpenClick;
         event EventHandler FileSaveClick;
         event EventHandler ContentChanged;
+        event EventHandler LockText; // ***
     }
 
     public partial class Form1 : Form, IMainForm
@@ -30,6 +31,7 @@ namespace CRUD_App
             fldContent.TextChanged += FldContent_TextChanged;
             btnSelect.Click += btnSelect_Click;
             numFont.Click += lblCounter_Click;
+            btnLock.Click += BtnLock_Click;
         }
 
         #region Проброс событий
@@ -70,7 +72,20 @@ namespace CRUD_App
         public event EventHandler FileOpenClick;
         public event EventHandler FileSaveClick;
         public event EventHandler ContentChanged;
+        public event EventHandler LockText; // ****
         #endregion
+
+        private void BtnLock_Click(object sender, EventArgs e) // ***
+        {
+            if (LockText != null) LockText(this, EventArgs.Empty);
+            if (fldContent.ReadOnly == true)
+            {
+                fldContent.ReadOnly = false;
+
+            }
+            else fldContent.ReadOnly = true;
+            fldContent.BackColor = System.Drawing.SystemColors.Window;
+        }
 
         private void btnSelect_Click(object sender, EventArgs e)
         {

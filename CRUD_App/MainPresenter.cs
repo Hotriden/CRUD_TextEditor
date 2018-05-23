@@ -65,7 +65,6 @@ namespace CRUD_App
                 _view.Content = content;
                 _view.SetSymbolCount(count);
 
-
             }
             catch(Exception ex)
             {
