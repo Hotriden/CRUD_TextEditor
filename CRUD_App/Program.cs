@@ -24,7 +24,7 @@ namespace CRUD_App
 
             MainPresenter presenter = new MainPresenter(form, manager, service);
 
-            Application.Run(new Form1());
+            Application.Run(form);
         }
     }
 }

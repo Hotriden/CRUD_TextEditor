@@ -39,6 +39,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblSymbolCount = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblCounter = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btnLock = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numFont)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -58,15 +59,15 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.fldPath.Location = new System.Drawing.Point(71, 10);
             this.fldPath.Name = "fldPath";
-            this.fldPath.Size = new System.Drawing.Size(351, 20);
+            this.fldPath.Size = new System.Drawing.Size(335, 20);
             this.fldPath.TabIndex = 1;
             // 
             // btnOpen
             // 
             this.btnOpen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOpen.Location = new System.Drawing.Point(509, 10);
+            this.btnOpen.Location = new System.Drawing.Point(412, 9);
             this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(75, 23);
+            this.btnOpen.Size = new System.Drawing.Size(86, 23);
             this.btnOpen.TabIndex = 2;
             this.btnOpen.Text = "Open";
             this.btnOpen.UseVisualStyleBackColor = true;
@@ -74,9 +75,9 @@
             // btnSelect
             // 
             this.btnSelect.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSelect.Location = new System.Drawing.Point(428, 10);
+            this.btnSelect.Location = new System.Drawing.Point(504, 10);
             this.btnSelect.Name = "btnSelect";
-            this.btnSelect.Size = new System.Drawing.Size(75, 23);
+            this.btnSelect.Size = new System.Drawing.Size(86, 23);
             this.btnSelect.TabIndex = 3;
             this.btnSelect.Text = "Select";
             this.btnSelect.UseVisualStyleBackColor = true;
@@ -156,11 +157,21 @@
             this.lblCounter.Name = "lblCounter";
             this.lblCounter.Size = new System.Drawing.Size(0, 17);
             // 
+            // btnLock
+            // 
+            this.btnLock.Location = new System.Drawing.Point(412, 38);
+            this.btnLock.Name = "btnLock";
+            this.btnLock.Size = new System.Drawing.Size(86, 24);
+            this.btnLock.TabIndex = 9;
+            this.btnLock.Text = "Lock/Unlock";
+            this.btnLock.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(591, 404);
+            this.Controls.Add(this.btnLock);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.fldContent);
@@ -193,6 +204,7 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel lblSymbolCount;
         private System.Windows.Forms.ToolStripStatusLabel lblCounter;
+        private System.Windows.Forms.Button btnLock;
     }
 }
 

@@ -19,6 +19,7 @@ namespace CRUD.BL
     {
         private readonly Encoding _defaultEncoding = Encoding.GetEncoding(1251);
 
+
         public string GetContent(string filePath)
         {
             return GetContent(filePath, _defaultEncoding);
